@@ -1,3 +1,3 @@
-FROM: alpine
-COPY: hello.sh
-RUN: hello.sh
+FROM alpine
+COPY hello.sh
+RUN hello.sh
