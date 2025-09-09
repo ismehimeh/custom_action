@@ -1,3 +1,3 @@
 FROM alpine
-COPY hello.sh
+COPY hello.sh /usr/local/bin/entrypoint.sh
 RUN hello.sh
